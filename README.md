@@ -1,4 +1,3 @@
-
 [![N|Solid](http://www.nexthop.net.br/static/images/logo.png)](http://www.nexthop.net.br)
 
 # NextHop Servidor Ookla - SpeedTest
