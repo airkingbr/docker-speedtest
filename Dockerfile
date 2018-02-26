@@ -2,6 +2,8 @@ FROM ubuntu
 
 MAINTAINER Elizandro Pacheco <elizandro@nexthop.net.br>
 
+WORKDIR /
+
 RUN  apt-get update \
   && apt-get install -y wget
 
@@ -12,6 +14,6 @@ RUN ./ooklaserver.sh install -f
 EXPOSE 8080
 EXPOSE 5060
 
-ENTRYPOINT ["/OoklaServer"]
+CMD ["./OoklaServer"]
 
 
