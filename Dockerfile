@@ -14,6 +14,6 @@ RUN ./ooklaserver.sh install -f
 EXPOSE 8080
 EXPOSE 5060
 
-CMD ["./OoklaServer"]
+#CMD ["./OoklaServer"]
 
 
